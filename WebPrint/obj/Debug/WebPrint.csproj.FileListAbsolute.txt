@@ -1,0 +1,15 @@
+D:\TEMP\FastReport\WebPrint\bin\WebPrint.dll
+D:\TEMP\FastReport\WebPrint\bin\WebPrint.pdb
+D:\TEMP\FastReport\WebPrint\bin\FastReport.Bars.dll
+D:\TEMP\FastReport\WebPrint\bin\FastReport.dll
+D:\TEMP\FastReport\WebPrint\bin\FastReport.Editor.dll
+D:\TEMP\FastReport\WebPrint\bin\FastReport.Install.dll
+D:\TEMP\FastReport\WebPrint\bin\FastReport.Service.dll
+D:\TEMP\FastReport\WebPrint\bin\FastReport.VSDesign.dll
+D:\TEMP\FastReport\WebPrint\bin\FastReport.Web.dll
+D:\TEMP\FastReport\WebPrint\bin\Newtonsoft.Json.dll
+D:\TEMP\FastReport\WebPrint\bin\FastReport.xml
+D:\TEMP\FastReport\WebPrint\bin\FastReport.Web.xml
+D:\TEMP\FastReport\WebPrint\obj\Debug\WebPrint.csprojResolveAssemblyReference.cache
+D:\TEMP\FastReport\WebPrint\obj\Debug\WebPrint.dll
+D:\TEMP\FastReport\WebPrint\obj\Debug\WebPrint.pdb

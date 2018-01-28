@@ -1,0 +1,14 @@
+D:\TEMP\FastReport\WinFormPrint\bin\Debug\WinFormPrint.exe
+D:\TEMP\FastReport\WinFormPrint\bin\Debug\WinFormPrint.pdb
+D:\TEMP\FastReport\WinFormPrint\bin\Debug\FastReport.dll
+D:\TEMP\FastReport\WinFormPrint\bin\Debug\FastReport.Bars.dll
+D:\TEMP\FastReport\WinFormPrint\bin\Debug\FastReport.Editor.dll
+D:\TEMP\FastReport\WinFormPrint\bin\Debug\FastReport.xml
+D:\TEMP\FastReport\WinFormPrint\obj\Debug\WinFormPrint.csprojResolveAssemblyReference.cache
+D:\TEMP\FastReport\WinFormPrint\obj\Debug\WinFormPrint.Properties.Resources.resources
+D:\TEMP\FastReport\WinFormPrint\obj\Debug\WinFormPrint.csproj.GenerateResource.Cache
+D:\TEMP\FastReport\WinFormPrint\obj\Debug\WinFormPrint.exe
+D:\TEMP\FastReport\WinFormPrint\obj\Debug\WinFormPrint.pdb
+D:\TEMP\FastReport\WinFormPrint\obj\Debug\WinFormPrint.Form1.resources
+D:\TEMP\FastReport\WinFormPrint\bin\Debug\WinFormPrint.exe.config
+D:\TEMP\FastReport\WinFormPrint\bin\Debug\Newtonsoft.Json.dll

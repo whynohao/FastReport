@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/27/2018 14:46:40" ReportInfo.Modified="01/27/2018 16:31:29" ReportInfo.CreatorVersion="2016.2.0.0">
+  <Styles>
+    <Style Name="蓝色" TextFill.Color="Blue"/>
+  </Styles>
+  <Dictionary>
+    <TableDataSource Name="CowboyBatchProofMainInfo" ReferenceName="Data.CowboyBatchProofMainInfo" DataType="System.Int32" Enabled="true">
+      <Column Name="State" DataType="System.Int32"/>
+      <Column Name="BillNO" DataType="System.String"/>
+      <Column Name="VoucherDate" DataType="System.DateTime"/>
+      <Column Name="PanterCode" DataType="System.String"/>
+      <Column Name="AO_PanterName" DataType="System.String"/>
+      <Column Name="Color" DataType="System.String"/>
+      <Column Name="KuanShi" DataType="System.String"/>
+      <Column Name="KuanHao" DataType="System.String"/>
+      <Column Name="PanterOrderCode" DataType="System.String"/>
+      <Column Name="PinPai" DataType="System.String"/>
+      <Column Name="BanLei" DataType="System.String"/>
+      <Column Name="YangBanHao" DataType="System.String"/>
+      <Column Name="ZhuMianLiao" DataType="System.String"/>
+      <Column Name="MianLiaoDetail" DataType="System.String"/>
+      <Column Name="DeliveryPeriod" DataType="System.DateTime"/>
+      <Column Name="UserCode" DataType="System.String"/>
+      <Column Name="AO_UserName" DataType="System.String"/>
+      <Column Name="DiJiBan" DataType="System.String"/>
+      <Column Name="DepartCode" DataType="System.String"/>
+      <Column Name="AO_DepartName" DataType="System.String"/>
+      <Column Name="Remark" DataType="System.String"/>
+      <Column Name="ActionFalg" DataType="System.Int32"/>
+      <Column Name="CreateDate" DataType="System.DateTime"/>
+      <Column Name="CreateUser" DataType="System.String"/>
+      <Column Name="LastUpdateDate" DataType="System.DateTime"/>
+      <Column Name="LastUpdateUser" DataType="System.String"/>
+      <Column Name="KeyNO" DataType="System.String"/>
+      <Column Name="FromBillNo" DataType="System.String"/>
+      <Column Name="CaiGouRemark" DataType="System.String"/>
+      <Column Name="ZhiYangRemark" DataType="System.String"/>
+      <Column Name="CaiChuangRemark" DataType="System.String"/>
+      <Column Name="WaiGongYiRemark" DataType="System.String"/>
+      <Column Name="CheFengRemark" DataType="System.String"/>
+      <Column Name="XiShuiRemark" DataType="System.String"/>
+      <Column Name="HouZhengLiRemark" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="CowboyBatchProofMainInfo_b" ReferenceName="Data.CowboyBatchProofMainInfo_b" DataType="System.Int32" Enabled="true">
+      <Column Name="BillNO" DataType="System.String"/>
+      <Column Name="BillNO_b" DataType="System.Int32"/>
+      <Column Name="ProductCode" DataType="System.String"/>
+      <Column Name="AO_ProductName" DataType="System.String"/>
+      <Column Name="AO_ProductStand" DataType="System.String"/>
+      <Column Name="AO_ProductTypeCode" DataType="System.String"/>
+      <Column Name="AO_ProductTypeName" DataType="System.String"/>
+      <Column Name="TotalSizeNum" DataType="System.Decimal"/>
+      <Column Name="FlowRate" DataType="System.Decimal"/>
+      <Column Name="MinSizeNum" DataType="System.Decimal"/>
+      <Column Name="MaxSizeNum" DataType="System.Decimal"/>
+      <Column Name="AO_ExeTotalSizeNum" DataType="System.Decimal"/>
+      <Column Name="Remark" DataType="System.String"/>
+      <Column Name="ActionFalg" DataType="System.Int32"/>
+      <Column Name="KeyNO" DataType="System.String"/>
+      <Column Name="KeyNO_b" DataType="System.Int32"/>
+      <Column Name="SIZE40" DataType="System.String"/>
+      <Column Name="SIZE39" DataType="System.String"/>
+      <Column Name="SIZE38" DataType="System.String"/>
+      <Column Name="SIZE37" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="Table1" ReferenceName="Data.Table1" DataType="System.Int32" Enabled="true">
+      <Column Name="SingleCost" DataType="System.Decimal"/>
+      <Column Name="SingleTradingNum" DataType="System.Decimal"/>
+      <Column Name="KeyNO" DataType="System.String"/>
+      <Column Name="KeyNO_b" DataType="System.Int32"/>
+      <Column Name="BillNO" DataType="System.String"/>
+      <Column Name="BillNO_b" DataType="System.Int32"/>
+      <Column Name="PanterCode" DataType="System.String"/>
+      <Column Name="AO_PanterName" DataType="System.String"/>
+      <Column Name="ProductCode" DataType="System.String"/>
+      <Column Name="AO_ProductName" DataType="System.String"/>
+      <Column Name="AO_ProductStand" DataType="System.String"/>
+      <Column Name="AO_FExtendField1" DataType="System.String"/>
+      <Column Name="PurchaseCode" DataType="System.Int32"/>
+      <Column Name="UnitCode" DataType="System.String"/>
+      <Column Name="AO_UnitName" DataType="System.String"/>
+      <Column Name="TradingNum" DataType="System.Decimal"/>
+      <Column Name="AO_HasSIZE" DataType="System.Int32"/>
+      <Column Name="Price" DataType="System.Decimal"/>
+      <Column Name="AO_InWareNum" DataType="System.Decimal"/>
+      <Column Name="Remark" DataType="System.String"/>
+      <Column Name="ActionFalg" DataType="System.Int32"/>
+      <Column Name="AO_HasPurchaseNum" DataType="System.Decimal"/>
+      <Column Name="TaxRate" DataType="System.Decimal"/>
+      <Column Name="Amount" DataType="System.Decimal"/>
+      <Column Name="TaxPrice" DataType="System.Decimal"/>
+      <Column Name="TaxAmount" DataType="System.Decimal"/>
+      <Column Name="TreeCode" DataType="System.String"/>
+      <Column Name="AO_HasPic" DataType="System.Int32"/>
+      <Column Name="AO_ExecuteState_b" DataType="System.String"/>
+      <Column Name="DeliveryPeriod" DataType="System.DateTime"/>
+      <Column Name="OrderIndex" DataType="System.Decimal"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" Guides="264.6,538.65,75.6,245.7,56.7,122.85,226.8,255.15,321.3,453.6,472.5,670.95,425.25,642.6,103.95,170.1,236.25,302.4,368.55">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="85.05" Guides="28.35,47.25,0,85.05">
+      <TextObject Name="Text1" Left="264.6" Top="9.45" Width="274.05" Height="18.9" Text="服装企业幸福 共享管理系统" Font="宋体, 15pt, style=Bold"/>
+      <PictureObject Name="Picture1" Left="85.05" Width="170.1" Height="85.05" Image="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"/>
+      <TextObject Name="Text20" Left="349.65" Top="47.25" Width="94.5" Height="18.9" Text="大货制单" Font="宋体, 15pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="89.05" Width="718.2" Height="170.1" Guides="18.9,37.8,56.7,75.6,94.5,113.4">
+      <TextObject Name="Text2" Left="56.7" Top="18.9" Width="75.6" Height="18.9" Border.ShadowColor="Blue" Text="生产单号:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text3" Left="122.85" Top="18.9" Width="103.95" Height="18.9" Text="[CowboyBatchProofMainInfo.BillNO]" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text4" Left="255.15" Top="18.9" Width="75.6" Height="18.9" Text="制单日期:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text5" Left="321.3" Top="18.9" Width="132.3" Height="18.9" Text="[CowboyBatchProofMainInfo.VoucherDate]" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text6" Left="472.5" Top="18.9" Width="75.6" Height="18.9" Text="客户名称:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text7" Left="538.65" Top="18.9" Width="132.3" Height="18.9" Text="[CowboyBatchProofMainInfo.AO_PanterName]" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text8" Left="56.7" Top="56.7" Width="75.6" Height="18.9" Text="颜 色:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text9" Left="122.85" Top="56.7" Width="103.95" Height="18.9" Text="[CowboyBatchProofMainInfo.Color]" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text10" Left="255.15" Top="56.7" Width="75.6" Height="18.9" Text="款式:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text11" Left="321.3" Top="56.7" Width="132.3" Height="18.9" Text="[CowboyBatchProofMainInfo.KuanShi]" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text12" Left="472.5" Top="56.7" Width="75.6" Height="18.9" Text="款号:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text13" Left="538.65" Top="56.7" Width="132.3" Height="18.9" Text="[CowboyBatchProofMainInfo.KuanShi]" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text14" Left="56.7" Top="94.5" Width="75.6" Height="18.9" Text="客户单号:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text15" Left="122.85" Top="94.5" Width="103.95" Height="18.9" Text="[CowboyBatchProofMainInfo.PanterOrderCode]" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text16" Left="255.15" Top="94.5" Width="75.6" Height="18.9" Text="品牌:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text17" Left="321.3" Top="94.5" Width="132.3" Height="18.9" Text="[CowboyBatchProofMainInfo.PinPai]" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text18" Left="472.5" Top="94.5" Width="75.6" Height="18.9" Text="板类:" Font="宋体, 10.5pt"/>
+      <TextObject Name="Text19" Left="538.65" Top="94.5" Width="132.3" Height="18.9" Text="[CowboyBatchProofMainInfo.BanLei]" Font="宋体, 10.5pt"/>
+      <TableObject Name="Table3" Left="37.8" Top="141.75" Width="651.96" Height="18.9" CanBreak="false" RepeatHeaders="false">
+        <TableColumn Name="Column9" Width="76.77"/>
+        <TableColumn Name="Column10" Width="76.77"/>
+        <TableColumn Name="Column11" Width="86.22"/>
+        <TableColumn Name="Column12" Width="76.77"/>
+        <TableColumn Name="Column13" Width="105.12"/>
+        <TableColumn Name="Column14" Width="76.77"/>
+        <TableColumn Name="Column15" Width="76.77"/>
+        <TableColumn Name="Column16" Width="76.77"/>
+        <TableRow Name="Row3">
+          <TableCell Name="Cell32" Text="物料清单" Font="宋体, 12pt, style=Bold"/>
+          <TableCell Name="Cell33" Text="供应商" Font="宋体, 12pt, style=Bold"/>
+          <TableCell Name="Cell34" Text="物料名称" Font="宋体, 12pt, style=Bold"/>
+          <TableCell Name="Cell35" Text="规格型号" Font="宋体, 12pt, style=Bold"/>
+          <TableCell Name="Cell36" Text="物料描述" Font="宋体, 12pt, style=Bold"/>
+          <TableCell Name="Cell37" Text="单位" Font="宋体, 12pt, style=Bold"/>
+          <TableCell Name="Cell38" Text="采购数量" Font="宋体, 12pt, style=Bold"/>
+          <TableCell Name="Cell39" Text="到货日期" Font="宋体, 12pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+      <ShapeObject Name="Shape1" Left="37.8" Top="9.45" Width="652.05" Height="113.4" Shape="RoundRectangle"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="263.15" Width="718.2" Height="37.8" Guides="9.45,103.95,0,18.9,37.8,56.7,75.6,94.5" DataSource="Table1" KeepTogether="true">
+      <TableObject Name="Table2" Left="37.8" Top="9.45" Width="651.96" Height="18.9" GrowToBottom="true" CanBreak="false" RepeatHeaders="false">
+        <TableColumn Name="Column1" Width="76.77"/>
+        <TableColumn Name="Column2" Width="76.77"/>
+        <TableColumn Name="Column3" Width="86.22"/>
+        <TableColumn Name="Column4" Width="76.77"/>
+        <TableColumn Name="Column5" Width="105.12"/>
+        <TableColumn Name="Column6" Width="76.77"/>
+        <TableColumn Name="Column7" Width="76.77"/>
+        <TableColumn Name="Column8" Width="76.77"/>
+        <TableRow Name="Row1">
+          <TableCell Name="Cell40" Text="[Table1.TreeCode]" Font="宋体, 9pt"/>
+          <TableCell Name="Cell41" Text="[Table1.AO_PanterName]" Font="宋体, 9pt"/>
+          <TableCell Name="Cell42" Text="[Table1.AO_ProductName]" Font="宋体, 9pt"/>
+          <TableCell Name="Cell43" Text="[Table1.AO_ProductStand]" Font="宋体, 9pt"/>
+          <TableCell Name="Cell44" Text="[Table1.AO_FExtendField1]" Font="宋体, 9pt"/>
+          <TableCell Name="Cell45" Text="[Table1.AO_UnitName]" Font="宋体, 9pt"/>
+          <TableCell Name="Cell46" Text="[Table1.TradingNum]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" Font="宋体, 9pt"/>
+          <TableCell Name="Cell47" Text="[Table1.DeliveryPeriod]" Font="宋体, 9pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="304.95" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>
